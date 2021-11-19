@@ -95,4 +95,4 @@ workflows:
             - install-dependencies
       - build-package:
           requires:
-            - install-dependencies
+          - install-dependencies
